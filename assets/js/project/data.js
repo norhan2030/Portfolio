@@ -12,7 +12,7 @@ let prjectsDB = [
     `,
     gith: 'https://github.com/norhan2030/FreshCart',
     video: "1",
-    filter:"angular"
+    filter:"Framework"
   },
   {
     id:2,
@@ -25,22 +25,22 @@ let prjectsDB = [
     .`,
     gith: 'https://github.com/norhan2030/Banking_System_Front',
     video: "2",
-    filter:"angular"
+    filter:"Framework"
   },
   {
-    id:3,
-    name: "E-Comerce",
-    img: '133.png',
-    imgs: ['131.png','132.png','133.png','134.png','135.png','136.png'],
-    tools:["JavaScript",  "Bootstrap","LocalStorge","HTML",  "CSS"],
+    id:5,
+    name: "Games",
+    img: 'game1.png',
+    imgs: ['game1.png','game2.png','game3.png','game4.png'],
+    tools:["JavaScript",  "Bootstrap","API","HTML",  "CSS"],
     desc:"This website relies entirely on JavaScript and its structure to save data as objects in the local storage.",
-    gith: 'https://github.com/norhan2030/E-commerce',
-    live: 'https://norhan2030.github.io/E-commerce/',
-    video: "12",
+    gith: 'https://github.com/norhan2030/Games.git',
+    live: 'https://norhan2030.github.io/Games/',
+    // video: "12",
     filter:"JavaScript"
   },
   {
-    id:4,
+    id:3,
     name: "Salla E-commerce",
     img: '31.png',
     imgs: ['31.png','32.png','33.png','34.png','35.png','36.png','37.png','38.png','39.png','310.png','311.png','312.png','313.png','314.png','314.png','315.png','316.png','317.png','318.png','319.png','320.png','321.png','322.png','323.png','324.png'],
@@ -48,11 +48,24 @@ let prjectsDB = [
     desc:" The website provides various functionalities for users to browse and purchase products, add items to their favorites, and avail discounts. Implemented multiple sections allowing users to view detailed product information and features. Incorporated a wide range of categories and brands to enhance product diversity and user experience",
     gith: 'https://github.com/norhan2030/Salla',
     video: "3",
-    filter:"vue"
+    filter:"Framework"
   },
   
   {
-    id:5,
+    id:4,
+    name: "Yummy",
+    img: 'yummy1.png',
+    imgs: ['yummy1.png','yummy2.png','yummy4.png','yummy5.png','yummy6.png','yummy7.png','yummy8.png'],
+    tools:["JavaScript", "HTML",  "CSS","API",'Bootstrap','jQuery'],
+    desc:"Yummy website  enhance the user's recipe browsing experience, relies on JavaScript",
+    gith: 'https://github.com/norhan2030/JavaScript-YummyExam',
+    live:"https://norhan2030.github.io/JavaScript-YummyExam/",
+    filter:"JavaScript"
+  },
+  ,
+  
+  {
+    id:6,
     name: "Spatial Design",
     img: '41.png',
     imgs: ['41.png','42.png','43.png','45.png','46.png','47.png'],
@@ -60,11 +73,10 @@ let prjectsDB = [
     desc:"Simple spatial design website relies entirely on JavaScript",
     gith: 'https://github.com/norhan2030/Project-JS',
     live:"https://norhan2030.github.io/Project-JS/",
-    video: "4",
     filter:"JavaScript"
   },
   {
-    id:6,
+    id:14,
     name: "Route Bookmarker",
     img: '51.png',
     imgs: ['51.png','52.png'],
@@ -72,7 +84,6 @@ let prjectsDB = [
     desc:"Simple website that save name and url of websites that you Visit it before and you can updete and deldete",
     gith: 'https://github.com/norhan2030/Bookmarker_route',
     live:"https://norhan2030.github.io/Bookmarker_route/",
-    video: "5",
     filter:"JavaScript"
   },
   {
@@ -94,8 +105,7 @@ let prjectsDB = [
     desc:"Simple website on  JS",
     gith: 'https://github.com/norhan2030/Qoutes-Route',
     live:"https://norhan2030.github.io/Qoutes-Route/",
-    video: "7",
-    filter:"other"
+    filter:"JavaScript"
   },
   {
     id: 9,
@@ -149,7 +159,31 @@ let prjectsDB = [
     desc:"Simple website with HTML and CSS",
     filter:"others"
   },
-  
+  {
+    id:14,
+    name: "E-Comerce",
+    img: '133.png',
+    imgs: ['131.png','132.png','133.png','134.png','135.png','136.png'],
+    tools:["JavaScript",  "Bootstrap","LocalStorge","HTML",  "CSS"],
+    desc:"This website relies entirely on JavaScript and its structure to save data as objects in the local storage.",
+    gith: 'https://github.com/norhan2030/E-commerce',
+    live: 'https://norhan2030.github.io/E-commerce/',
+    video: "12",
+    filter:"JavaScript"
+  },
+  ,
+  {
+    id:16,
+    name: "Users chart",
+    img: 'job.png',
+    imgs: ['job.png','job1.png'],
+    tools:["JavaScript",  "Bootstrap","Json Server","HTML",  "CSS",'Angular'],
+    desc:"This website relies entirely on JavaScript and its structure to save data as objects in the local storage.",
+    gith: 'https://github.com/norhan2030/Assignment-Job-fair.git',
+    // live: 'https://norhan2030.github.io/E-commerce/',
+    video: "13",
+    filter:"Framework"
+  },
   
   
 ]

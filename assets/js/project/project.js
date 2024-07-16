@@ -9,9 +9,9 @@ let projectItme = myprojects.map((itme) => {
   return `
   <div class="col-lg-4 col-md-6 portfolio-item 
   ${
-    itme.filter=='angular'?'filter-angular'
-    :itme.filter=='vue'?'filter-vue'
-    :itme.filter=='laravel'?'filter-laravel'
+    itme.filter=='Framework'?'filter-Framework'
+    :itme.filter=='JavaScript'?'filter-JavaScript'
+    // :itme.filter=='laravel'?'filter-laravel'
     :'filter-others'
   }
       ">
